@@ -14,4 +14,4 @@ Funcionalidade: Adicionar de produto no carrinho
             E clico em Ver mais produtos
         Quando clico em um produto aleatorio
             E clico no botao "Adicionar ao carrinho"
-        Então sou redirecionado para a pagina de "Carrinho - Pontos"
+        Então vejo "Resumo do pedido"

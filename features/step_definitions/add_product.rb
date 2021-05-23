@@ -19,7 +19,6 @@ Quando('clico no botao {string}') do |add_product|
     @product.add_to_cart(add_product)
 end
 
-Então('sou redirecionado para a pagina de {string}') do |title|
-    sleep 3
-    expect(page.title).to eql title
+Então('vejo {string}') do |message|
+    expect(@cart.check_cart).to eql message
 end
